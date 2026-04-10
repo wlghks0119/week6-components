@@ -6,7 +6,7 @@ import MovieCard from './components/MovieCard.vue';
 // 1. 심화 데이터 선언 : 더미 이미지 URL(picsum)과 다양한 평점 추가
 const movies = ref([
   { 
-    id: 1, title: '인셉션', rating: 9.5,
+    id: 1, title: '인셉션', rating: 9.5 ,
     poster: 'https://picsum.photos/seed/inception/300/450',
     isHot: true, isNew: false, tags: ['SF', '명작']
   },

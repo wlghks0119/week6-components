@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card">
+  <div class="card"> 
     <div class="poster-area">
       <img :src="movie.poster" :alt="movie.title" class="poster">
       <span v-if="movie.rating >= 9.5" class="recommend best">강력 추천</span>
